@@ -275,6 +275,12 @@
         margin-right: 42vw;
         top: -25px;
     }
+
+    .MOBILE-card-imagemContainer-img:hover {
+        background-color: none;
+        opacity: 100%;
+        border-bottom: none;
+    }
 }
 
 
