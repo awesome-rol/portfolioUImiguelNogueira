@@ -4,7 +4,7 @@ import SkillButton from './SkillButton';
 import logoRodape from './assets/imagens/logo.png';
 import linkedinImg from './assets/imagens/brancos/branco.png';
 import whats from './assets/imagens/brancos/whats.png';
-import insta from './assets/imagens/brancos/insta.png';
+import github from './assets/imagens/brancos/github.png';
 
 const Rodape = ({instagram, linkedin, whatsapp, alternativoLogo}) => {
   return (
@@ -15,7 +15,7 @@ const Rodape = ({instagram, linkedin, whatsapp, alternativoLogo}) => {
       <div className="rodapeBotoes">
         <SkillButton link="https://www.linkedin.com/in/miguel-nogueira-a7b9a922a/" icone={linkedinImg} style={{width: "80px"}}/>
         <SkillButton link="https://wa.me/5582987654321?text=Ol%C3%A1%2C%20vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20falar%20com%20voc%C3%AA." icone={whats} />
-        <SkillButton link="https://www.instagram.com/_miguelnog" icone={insta} />
+        <SkillButton link="https://github.com/awesome-rol" icone={github} />
       </div>
     </div>
   );
