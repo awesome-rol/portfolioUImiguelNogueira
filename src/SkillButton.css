@@ -1,0 +1,129 @@
+.skillButtonContainer {
+    width: 100px;
+    height: 105px;
+    position: relative;
+}
+
+.skillButtonLink:hover {
+    cursor: pointer;
+}
+
+.skillButton-icone {
+    width: 85px;
+    height: 85px;
+    background-color: #070707;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    transition: 0.1s;
+}
+
+.skillButton-icone:hover {
+    top: 0;
+}
+
+.skillButton-sombra {
+    width: 85px;
+    height: 85px;
+    background-color: #F2D308;
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.skillButton-iconeImagem {
+    width: 60px;
+    height: 60px;
+    padding: 3px;
+    margin: 0 auto;
+    border: 2px solid #eaeaea;
+    z-index: 3;
+}
+
+@media screen and (max-width: 1366px) {
+    .skillButtonContainer {
+        width: 70px;
+        height: 75px;
+    }
+
+    
+
+    .skillButton-iconeImagem {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skillButton-icone {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skillButton-sombra {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .skillButtonLink {
+        margin: 0 auto;
+    }
+
+    .skillButtonContainer {
+        width: 92px;
+        height: 97px;
+        margin-bottom: 40px;
+    }
+
+    
+
+    .skillButton-iconeImagem {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skillButton-icone {
+        width: 85px;
+        height: 85px;
+    }
+
+    .skillButton-sombra {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .skillButtonContainer {
+        width: 65px;
+        height: 70px;
+    }
+
+    
+
+    .skillButton-iconeImagem {
+        width: 40px;
+        height: 40px;
+    }
+
+    .skillButton-icone {
+        width: 60px;
+        height: 60px;
+    }
+
+    .skillButton-sombra {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .skillButtonContainer {
+        margin-bottom: 20px;
+    }
+}

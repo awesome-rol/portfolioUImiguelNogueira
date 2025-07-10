@@ -1,0 +1,184 @@
+.meusProjetosContainer {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    max-width: 1440px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.meusProjetos-tituloContainer {
+    height: 130px;
+    position: relative;
+    margin-left: -36px;
+    margin-bottom: 80px;
+    width: 617px;
+}
+
+.meusProjetos-tituloContainer-titulo {
+    font-size: 100px;
+    line-height: 96px;
+    font-family: "Anton";
+    color: #070707;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.meusProjetos-tituloContainer-quadradoAmarelo {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #F2D308;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.meusProjetos-tituloContainer-quadradoBorda {
+    border: 0.5px #070707 solid;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.cardsContainer {
+    margin-top: 100px;
+}
+
+.cardsContainerMobile {
+    margin-top: 100px;
+}
+
+.projetosDivisor {
+    height: 1px;
+    background-color: #070707;
+    width: 520px;
+    margin-left: 80px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+@media screen and (max-width: 1366px) {
+    .meusProjetosContainer {
+        max-width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+
+    .meusProjetos-tituloContainer {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .cardsContainer {
+        display: none;
+    }
+
+    .cardsContainerMobile {
+        display: block;
+    }
+
+    .card-imagemContainer, .card-imagemSombra {
+        width: 40vw;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 940px) {
+    .meusProjetos-tituloContainer-titulo {
+        font-size: 80px;
+        line-height: 96px;
+    }
+
+    .meusProjetos-tituloContainer {
+        left: -22px;
+        right: 0;
+
+        margin-bottom: 80px;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .projetosDivisor {
+        width: 40vw;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    
+    .meusProjetos-tituloContainer {
+        height: 100px;
+        left: -12px;
+        right: 0;
+        margin-bottom: 80px;
+        width: 375px;
+    }
+
+    .meusProjetos-tituloContainer-quadradoAmarelo {
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .meusProjetos-tituloContainer-quadradoBorda {
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .meusProjetos-tituloContainer-titulo {
+        font-size: 60px;
+        line-height: 96px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .projetosDivisor {
+        margin-left: 40px;
+    }
+
+
+    .meusProjetos-tituloContainer {
+        height: 100px;
+        left: -12px;
+        right: 0;
+        margin-bottom: 80px;
+        width: 310px;
+    }
+
+    .meusProjetos-tituloContainer-titulo {
+        font-size: 48px;
+        line-height: 96px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .meusProjetos-tituloContainer {
+        height: 100px;
+        left: -12px;
+        right: 0;
+        margin-bottom: 80px;
+        width: 280px;
+    }
+
+    .meusProjetos-tituloContainer-titulo {
+        font-size: 42px;
+        line-height: 96px;
+    }
+}

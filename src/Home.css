@@ -1,0 +1,409 @@
+.homeContent {
+    display: flex;
+    align-items: center;
+    gap: 110px;
+    width: 90vw;
+    max-width: 1200px;
+    position: relative;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    height: 415px;
+    gap: 16px;
+    margin-top: 305px;
+    
+    max-width: 450px;
+}
+
+.titulo1, .titulo2, .titulo3 {
+    margin: 0;
+}
+
+.titulo1, .titulo2 {
+    margin-left: 16px;
+}
+
+.titulo1 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 64px;
+    color: #070707;
+}
+
+.titulo2 {
+    font-family: "Anton";
+    font-size: 80px;
+    color: #070707;
+}
+
+.titulo3 {
+    font-family: "Anton";
+    font-size: 96px;
+    color: #F2D308;
+    background-color: #070707;
+    width: 456px;
+    text-align: center;
+}
+
+.homeArt {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.fotoMiguel {
+    width: 770px;
+    height: 840px;
+    position: absolute;
+    z-index: 3;
+    top: 150px;
+    right: 0;
+}
+
+.fotoMiguelMobile {
+    display: none;
+}
+
+.homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo, .homeArt-barraVertical {
+    background-color: #F2D308;
+    mix-blend-mode: multiply;
+    opacity: 70%;
+}
+
+.homeArt-barraVertical {
+    height: 992px;
+    width: 160px;
+    position: absolute;
+    top: 0;
+    right: 307px;
+    z-index: 4;
+}
+
+.homeArt-barraHorizontalFrente {
+
+    width: 307px;
+    height: 160px;
+    position: absolute;
+    top: 405px;
+    right: 0;
+    z-index: 4;
+}
+
+.homeArt-barraHorizontalFundo {
+    width: 130px;
+    height: 160px;
+    position: absolute;
+    right: 467px;
+    top: 405px;
+}
+
+@media screen and (max-width: 1366px) {
+    .fotoMiguel {
+        width: 600px;
+        height: 640px;
+        top: 250px;
+    }
+
+    .homeArt-barraVertical {
+        height: 890px;
+        width: 120px;
+        position: absolute;
+        top: 0;
+        right: 240px;
+        z-index: 4;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 240px;
+        height: 120px;
+        top: 420px;
+    }
+
+    .homeArt-barraHorizontalFundo {
+        width: 130px;
+        height: 120px;
+        position: absolute;
+        right: 360px;
+        top: 420px;
+    }
+
+    .titulos {
+        gap: 10px;
+        margin-top: 345px;
+    }
+
+    .titulo1 {
+        font-size: 60px;
+    }
+
+    .titulo2 {
+        font-size: 80px;
+    }
+
+    .titulo3 {
+        font-size: 90px;
+        width: 430px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .homeContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeArt {
+        position: relative;
+        width: 100vw;
+        height: 1157px;
+    }
+
+    .fotoMiguel {
+        display: none;
+    }
+
+    .fotoMiguelMobile {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        width: auto;
+        z-index: 2;
+        height: 1200px;
+        margin-top: 57px;
+    }
+
+    .homeArt-barraVertical {
+        display: none;
+    }
+
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 200px;
+        top: 31%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 73%;
+        right: 0;
+        z-index: 3;
+    }
+
+    .homeArt-barraHorizontalFundo {
+        width: 50%;
+        z-index: 1;
+        left: 0;
+    }
+
+    .titulos {
+        max-width: 80%;
+        margin-top: 240px;
+    }
+
+    .titulo1, .titulo2 {
+        text-align: center;
+        margin: 0;
+    }
+
+    .titulo1 {
+        font-size: 90px;
+    }
+
+    .titulo2 {
+        font-size: 120px;
+    }
+
+    .titulo3 {
+        width: auto;
+        margin: 0 auto;
+        font-size: 140px;
+        max-width: 90%;
+        padding: 12px 24px 12px 24px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .titulo1 {
+        font-size: 70px;
+    }
+
+    .titulo2 {
+        font-size: 100px;
+    }
+
+    .titulo3 {
+        font-size: 120px;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    
+    .titulo3 {
+        max-width: 100%;
+        font-size: 110px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .fotoMiguelMobile {
+        height: 950px;
+    }
+
+    .homeArt {
+        height: 957px;
+    }
+
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 150px;
+        top: 31%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .homeContent {
+        gap: 0;
+    }
+
+    .fotoMiguelMobile {
+        height: 800px;
+    }
+
+    .homeArt {
+        height: 807px;
+    }
+    
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 120px;
+        top: 33%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 72%;
+    }
+
+    .titulo1 {
+        font-size: 60px;
+    }
+
+    .titulo2 {
+        font-size: 70px;
+    }
+
+    .titulo3 {
+        font-size: 80px;
+    }
+
+    
+}
+
+@media screen and (max-width: 580px) {
+    .homeArt-barraHorizontalFrente {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .titulos {
+        margin-bottom: 0;
+    }
+
+    .titulo1 {
+        font-size: 40px;
+    }
+
+    .titulo2 {
+        font-size: 50px;
+    }
+
+    .titulo3 {
+        font-size: 60px;
+    }
+
+    .fotoMiguelMobile {
+        margin-top: 0;
+    }
+
+    
+
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 120px;
+        top: 27%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 78%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .fotoMiguelMobile {
+        height: 600px;
+    }
+
+    .homeArt {
+        height: 607px;
+    }
+
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 100px;
+        top: 26%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 72%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .fotoMiguelMobile {
+        height: 500px;
+    }
+
+    .homeArt {
+        height: 507px;
+    }
+
+    .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
+        height: 80px;
+        top: 26%;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 72%;
+    }
+
+
+    .titulo1 {
+        font-size: 40px;
+    }
+
+    .titulo2 {
+        font-size: 50px;
+    }
+
+    .titulo3 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .titulo3 {
+        font-size: 40px;
+    }
+
+    .homeArt-barraHorizontalFrente {
+        width: 75%;
+    }
+
+}
+

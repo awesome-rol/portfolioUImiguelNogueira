@@ -1,0 +1,11 @@
+.divisorPadrao {
+    height: 20px;
+    background-color: #070707;
+    width: 100vw;
+}
+
+@media screen and (max-width: 560px) {
+    .divisorPadrao {
+        height: 15px;
+    }
+}

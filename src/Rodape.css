@@ -1,0 +1,73 @@
+.rodapeContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 30px 0 30px 0;
+    align-items: center;
+}
+
+.rodapeLogo {
+    height: 70px;
+}
+
+.rodapeLogo-img {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+.rodapeBotoes {
+    display: flex;
+    gap: 50px;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .rodapeContainer {
+        width: 90vw;
+        max-width: 90vw;
+        align-items: center;
+    }
+
+    .skillButtonContainer {
+        margin-bottom: 0;
+    }
+
+    
+}
+
+@media screen and (max-width: 800px) {
+    .rodapeLogo {
+        height: 82px;
+    }
+    
+    .rodapeLogo-img {
+        width: 82px;
+        height: 82px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .rodapeContainer {
+        flex-direction: column;
+    }
+    
+
+    .rodapeLogo-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .rodapeContainer {
+        width: 80vw;
+        max-width: 80vw;
+    }
+
+    .rodapeBotoes {
+        gap: 0;
+        justify-content: space-between;
+        width: 80vw;
+    }
+}

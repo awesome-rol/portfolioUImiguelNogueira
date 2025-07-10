@@ -1,0 +1,158 @@
+.sobreContainer {
+    max-width: 1200px;
+    margin-top: 120px;
+}
+
+.sobre-tituloContainer {
+    height: 130px;
+    position: relative;
+    margin-left: -36px;
+    margin-bottom: 80px;
+    width: 465px;
+}
+
+.sobre-tituloContainer-titulo {
+    font-size: 100px;
+    line-height: 96px;
+    font-family: "Anton";
+    color: #070707;
+    z-index: 3;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+}
+
+.sobre-tituloContainer-quadradoAmarelo {
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 80px;
+    background-color: #F2D308;
+    mix-blend-mode: multiply;
+    z-index: 1;
+}
+
+.sobre-tituloContainer-quadradoBorda {
+    border: 0.5px #070707 solid;
+    width: 80px;
+    height: 80px;
+    z-index: 2;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+
+.sobreTextos {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    color: #070707;
+}
+
+.sobreTxt1, .sobreTxt2 {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.sobreTxt2 {
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 1366px) {
+    .sobreContainer {
+        max-width: 90vw;
+    }
+}
+
+
+@media screen and (max-width: 1100px) {
+    .sobreContainer {
+        max-width: 80vw;
+    }
+
+    .sobre-tituloContainer {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+
+    .sobreTextos {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .sobre-tituloContainer-titulo {
+        font-size: 80px;
+        line-height: 96px;
+    }
+
+    .sobre-tituloContainer {
+        left: -22px;
+        right: 0;
+
+        margin-bottom: 80px;
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .sobreContainer {
+        max-width: 85vw;
+    }
+
+    .sobreTextos {
+        text-align: center;
+    }
+
+    .sobreTxt1, .sobreTxt2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    
+    .sobre-tituloContainer {
+        height: 100px;
+        left: -22px;
+        right: 0;
+        margin-bottom: 80px;
+        width: 290px;
+    }
+
+    .sobre-tituloContainer-quadradoAmarelo {
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 50px;
+    }
+    
+    .sobre-tituloContainer-quadradoBorda {
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: 10px;
+    }
+
+    .sobre-tituloContainer-titulo {
+        font-size: 60px;
+        line-height: 96px;
+    }
+
+    .sobreTxt1, .sobreTxt2 {
+        font-size: 24px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .sobreTxt1, .sobreTxt2 {
+        font-size: 20px;
+        line-height: 46px;
+    }
+}

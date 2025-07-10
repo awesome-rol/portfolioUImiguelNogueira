@@ -1,0 +1,55 @@
+.divisor {
+    height: 20px;
+    background-color: #070707;
+    width: 100vw;
+    position: absolute;
+    top: 990px;
+    right: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1366px) {
+    .divisor {
+        top: 890px;
+        
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .divisor {
+        top: 2056px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .divisor {
+        top: 1806px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .divisor {
+        top: 1546px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .divisor {
+        top: 1455px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .divisor {
+        top: 1255px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    @media screen and (max-width: 540px) {
+        .divisor {
+            height: 15px;
+            top: 1155px;
+        }
+    }
+}
