@@ -79,5 +79,7 @@ button:focus-visible {
 @media screen and (max-width: 1366px) {
   .page {
     max-width: 90vw;
+    margin: 0 auto;
+    overflow-x: hidden;
   }
 }
