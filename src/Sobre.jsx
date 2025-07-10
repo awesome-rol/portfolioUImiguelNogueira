@@ -1,6 +1,5 @@
 import React from 'react';
 import './Sobre.css';
-import Titulo from './titulo.jsx'
 
 
 const Sobre = () => {
