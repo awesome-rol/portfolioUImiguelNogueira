@@ -227,6 +227,10 @@
 
 @media screen and (max-width: 960px) {
 
+    .homeContent {
+        gap: 20px;
+    }
+
     .titulo1 {
         font-size: 70px;
     }
@@ -273,8 +277,13 @@
         gap: 0;
     }
 
+    .titulos {
+        margin-bottom: 0;
+    }
+
     .fotoMiguelMobile {
         height: 800px;
+        margin-top: 0;
     }
 
     .homeArt {
@@ -283,7 +292,7 @@
     
     .homeArt-barraHorizontalFrente, .homeArt-barraHorizontalFundo {
         height: 120px;
-        top: 33%;
+        top: 27%;
     }
 
     .homeArt-barraHorizontalFrente {
@@ -314,6 +323,7 @@
 @media screen and (max-width: 560px) {
     .titulos {
         margin-bottom: 0;
+        height: 300px;
     }
 
     .titulo1 {
@@ -382,28 +392,45 @@
         width: 72%;
     }
 
+    .titulos {
+        margin-top: 160px;
+        height: 230px;
+    }
 
     .titulo1 {
-        font-size: 40px;
+        font-size: 27px;
     }
 
     .titulo2 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .titulo3 {
-        font-size: 50px;
+        font-size: 45px;
+        padding: 4px 20px 4px 20px;
     }
 }
 
 @media screen and (max-width: 370px) {
-    .titulo3 {
-        font-size: 40px;
-    }
+    
 
     .homeArt-barraHorizontalFrente {
         width: 75%;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+    .titulo1 {
+        font-size: 25px;
+    }
+
+    .titulo2 {
+        font-size: 35px;
+    }
+
+    .titulo3 {
+        font-size: 40px;
+    }
 }
 

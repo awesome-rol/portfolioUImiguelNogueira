@@ -37,19 +37,25 @@
 
 @media screen and (max-width: 740px) {
     .skillsContainer {
-        margin-top: 105px;
+        margin-top: 47px;
     }
 }
 
 @media screen and (max-width: 560px) {
     .skillsContainer {
-        margin-top: 48px;
+        margin-top: 43px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .skillsContainer {
         margin-top: 48px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .skillsContainer {
+        margin-top: 42px;
     }
 }
 

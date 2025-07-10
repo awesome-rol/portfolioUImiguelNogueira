@@ -21,35 +21,39 @@
     }
 }
 
+@media screen and (max-width: 960px) {
+    .divisor {
+        top: 1966px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .divisor {
-        top: 1806px;
+        top: 1716px;
     }
 }
 
 @media screen and (max-width: 740px) {
     .divisor {
-        top: 1546px;
+        top: 1455px;
     }
 }
 
 @media screen and (max-width: 560px) {
     .divisor {
-        top: 1455px;
+        top: 1340px;
+        height: 15px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .divisor {
-        top: 1255px;
+        top: 1140px;
     }
 }
 
-@media screen and (max-width: 440px) {
-    @media screen and (max-width: 540px) {
+@media screen and (max-width: 440px) { 
         .divisor {
-            height: 15px;
-            top: 1155px;
+            top: 890px;
         }
-    }
 }
