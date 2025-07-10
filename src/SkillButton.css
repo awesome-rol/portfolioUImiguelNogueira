@@ -74,6 +74,10 @@
         margin: 0 auto;
     }
 
+    .skillButton-icone:hover {
+        top: 5px;
+    }
+
     .skillButtonContainer {
         width: 92px;
         height: 97px;
