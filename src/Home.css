@@ -13,8 +13,7 @@
     height: 415px;
     gap: 16px;
     margin-top: 305px;
-    
-    max-width: 450px;
+    max-width: 570px;
 }
 
 .titulo1, .titulo2, .titulo3 {
@@ -43,8 +42,9 @@
     font-size: 96px;
     color: #F2D308;
     background-color: #070707;
-    width: 456px;
-    text-align: center;
+    width: 100%;
+    padding-left: 16px;
+    z-index: 7;
 }
 
 .homeArt {
@@ -132,6 +132,7 @@
     .titulos {
         gap: 10px;
         margin-top: 345px;
+        width: 545px;
     }
 
     .titulo1 {
@@ -144,7 +145,6 @@
 
     .titulo3 {
         font-size: 90px;
-        width: 430px;
     }
 }
 
@@ -200,6 +200,8 @@
     .titulos {
         max-width: 80%;
         margin-top: 240px;
+        width: auto;
+        text-align: center;
     }
 
     .titulo1, .titulo2 {
@@ -218,11 +220,31 @@
     .titulo3 {
         width: auto;
         margin: 0 auto;
-        font-size: 140px;
-        max-width: 90%;
+        font-size: 120px;
+        max-width: 100%;
         padding: 12px 24px 12px 24px;
     }
 
+}
+
+@media screen and (max-width: 1027px) {
+    .titulos {
+        
+    }
+    
+    
+    .titulo1 {
+        font-size: 60px;
+    }
+
+    .titulo2 {
+        font-size: 100px;
+    }
+    
+    .titulo3 {  
+        padding: 16px;
+        font-size: 110px;
+    }
 }
 
 @media screen and (max-width: 960px) {
@@ -231,16 +253,12 @@
         gap: 20px;
     }
 
-    .titulo1 {
-        font-size: 70px;
-    }
+}
 
-    .titulo2 {
-        font-size: 100px;
-    }
+@media screen and (max-width: 927px) {
 
-    .titulo3 {
-        font-size: 120px;
+    .titulos {
+        max-width: 90%;
     }
 }
 
@@ -250,6 +268,12 @@
     .titulo3 {
         max-width: 100%;
         font-size: 110px;
+    }
+}
+
+@media screen and (max-width: 822px) {
+    .titulos {
+        max-width: 100%;
     }
 }
 
@@ -278,6 +302,7 @@
     }
 
     .titulos {
+        max-width: 95%;
         margin-bottom: 0;
     }
 
@@ -317,6 +342,19 @@
 @media screen and (max-width: 580px) {
     .homeArt-barraHorizontalFrente {
         width: 75%;
+    }
+
+    .titulo1 {
+        font-size: 42px;
+    }
+
+    .titulo2 {
+        font-size: 55px;
+    }
+
+    .titulo3 {
+        font-size: 70px;
+        padding: 15px;
     }
 }
 

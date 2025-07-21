@@ -10,7 +10,7 @@ const Home = () => {
       <h1 className='titulos'>
         <p className="titulo1">Muito prazer!</p>
         <p className="titulo2">ME CHAMO MIGUEL E SOU</p>
-        <p className='titulo3'>UI DESIGNER</p>
+        <p className='titulo3'>UI/UX DESIGNER</p>
       </h1>
       <div className="homeArt">
         <div><img className='fotoMiguel' src={fotoMiguel} alt="Foto Miguel Nogueira" /></div>
